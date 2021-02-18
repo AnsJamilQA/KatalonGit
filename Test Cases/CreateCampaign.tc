@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To create Hybrid Campaign</description>
+   <name>CreateCampaign</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55b8942e-503c-444c-84cb-363eeacd28ad</testCaseGuid>
+</TestCaseEntity>
