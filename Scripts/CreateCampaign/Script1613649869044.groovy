@@ -20,15 +20,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://workbench.xiq.io/login/?next=/digest/campaigns/')
 
-WebUI.click(findTestObject('Object Repository/Page_LOGIN - WORKBENCH/input_To process the download request, you _d25763'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Page_LOGIN - WORKBENCH/input_To process the download request, you _d25763'), 
+WebUI.setText(findTestObject('null'), 
     'ans_admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_LOGIN - WORKBENCH/input_To process the download request, you _d402d7'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'h1trQinB+8s4SYEQAoTXlQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_LOGIN - WORKBENCH/button_LOG IN'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Page_CAMPAIGNS - WORKBENCH/button_CREATE CAMPAIGN'))
 

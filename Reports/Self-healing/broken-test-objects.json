@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CAMPAIGN - Hybrid/a_Created with sketchtool.                 _919c20",
+      "brokenLocator": "//a[@onclick\u003d\"save_state_and_redirect_user(\u0027/digest/publish/10533/\u0027, 10533, 8); log_event(\u0027PUBLISH_EMAIL_CLICK\u0027);\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Draft Hybrid\u0027])[2]/following::a[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CAMPAIGN - Hybrid/a_Created with sketchtool.                 _919c20_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_VERSIONS - WORKBENCH/span_Draft Hybrid",
+      "brokenLocator": "//span[@id\u003d\u0027version_name_col_41623\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027LIST\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_VERSIONS - WORKBENCH/span_Draft Hybrid_neighbor.png"
+    }
+  ]
 }
